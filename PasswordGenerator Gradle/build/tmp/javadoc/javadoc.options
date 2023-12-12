@@ -1,0 +1,11 @@
+-Xdoclint:none 
+-author 
+-classpath 'C:\\Users\\qy\\Desktop\\code\\java\\PasswordGenerator Gradle\\build\\classes\\java\\main;C:\\Users\\qy\\Desktop\\code\\java\\PasswordGenerator Gradle\\build\\resources\\main;C:\\Users\\qy\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-core\\2.22.0\\bf2fd48bc237e99fd4f1c2e82db3b10ffb8c1f47\\log4j-core-2.22.0.jar;C:\\Users\\qy\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.22.0\\2c7d82708efd430e722562be1993defd9fb2426b\\log4j-api-2.22.0.jar'
+-d 'C:\\Users\\qy\\Desktop\\code\\java\\PasswordGenerator Gradle\\build\\docs\\javadoc'
+-doctitle 'PasswordGenerator Gradle API'
+-notimestamp 
+-quiet 
+-private 
+-version 
+-windowtitle 'PasswordGenerator Gradle API'
+'C:\\Users\\qy\\Desktop\\code\\java\\PasswordGenerator Gradle\\src\\main\\java\\PasswordGenerator.java'

@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.apache.logging.log4j:log4j-api:2.22.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.22.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "com.example.PasswordGeneratorMain"
+    }
+    duplicatesStrategy = 'INCLUDE'
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+
+javadoc {
+    // Set the output directory for the generated Javadoc
+    destinationDir = file("$buildDir/docs/javadoc")
+    options.addBooleanOption('Xdoclint:none', true)
+    options.addBooleanOption('author', true)
+    options.addBooleanOption('version', true)
+    options.addBooleanOption('private', true)
+}
